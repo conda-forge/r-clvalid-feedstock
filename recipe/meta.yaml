@@ -1,4 +1,4 @@
-{% set version = '0.6-6' %}
+{% set version = "0.6-7" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/clValid_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/clValid/clValid_{{ version }}.tar.gz
-  sha256: c13ef1b6258e34ba53615b78f39dbe4d8ba47b976b3c24a3eedaecf5ffba19ed
+  sha256: d04f1ae5cce3fd9b1139de035ec99bc785731e69a4c195f8c55cfd6d91f9dfee
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -42,7 +42,7 @@ about:
   license: LGPL-3
   summary: Statistical and biological validation of clustering results.
   license_family: LGPL
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/LGPL-3'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/LGPL-3
 
 extra:
   recipe-maintainers:
