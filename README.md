@@ -3,9 +3,9 @@ About r-clvalid
 
 Home: http://guybrock.gpbrock.net/research
 
-Package license: LGPL-3
+Package license: LGPL-3-only
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Statistical and biological validation of clustering results.
 
