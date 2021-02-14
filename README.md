@@ -5,11 +5,9 @@ Home: http://guybrock.gpbrock.net/research
 
 Package license: LGPL-3-only
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-clvalid-feedstock/blob/master/LICENSE.txt)
 
 Summary: Statistical and biological validation of clustering results.
-
-
 
 Current build status
 ====================
