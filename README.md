@@ -1,11 +1,11 @@
-About r-clvalid
-===============
+About r-clvalid-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-clvalid-feedstock/blob/main/LICENSE.txt)
 
 Home: http://guybrock.gpbrock.net/research
 
 Package license: LGPL-3-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-clvalid-feedstock/blob/main/LICENSE.txt)
 
 Summary: Statistical and biological validation of clustering results.
 
